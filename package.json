@@ -1,0 +1,24 @@
+{
+  "name": "introvert_api",
+  "version": "1.0.0",
+  "description": "Fun talking points for introverts",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtkaufman737/introvert_api.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "introvert"
+  ],
+  "author": "jtk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtkaufman737/introvert_api/issues"
+  },
+  "homepage": "https://github.com/jtkaufman737/introvert_api#readme"
+}
