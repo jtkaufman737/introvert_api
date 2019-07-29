@@ -4,7 +4,8 @@
   "description": "Fun talking points for introverts",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/jtkaufman737/introvert_api/issues"
   },
-  "homepage": "https://github.com/jtkaufman737/introvert_api#readme"
+  "homepage": "https://github.com/jtkaufman737/introvert_api#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.7"
+  }
 }
