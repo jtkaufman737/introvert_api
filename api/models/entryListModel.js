@@ -24,4 +24,4 @@ var EntrySchema = new Schema({
   }
 })
 
-module.exports = mongoose.Model('Entry', EntrySchema);
+module.exports = mongoose.Model('Entries', EntrySchema);
