@@ -1,7 +1,7 @@
 'use strict';
 
-var mongoose = require('mongoose');
-Entry = mongoose.model('Entries');
+const mongoose = require('mongoose');
+const Entry = mongoose.model('Entries');
 
 // controller methods as exports
 exports.list_all_entries = function(res, req) {
@@ -11,7 +11,8 @@ exports.list_all_entries = function(res, req) {
     }
 
     res.json(entry)
-  }
+  })
+
 }
 
 exports.create_an_entry = function(res, req) {
@@ -50,7 +51,7 @@ exports.update_entry = function(res, req) {
   )
 }
 
-exports.deleteEntry = function(res, req) {
+exports.delete_entry = function(res, req) {
   Entry.remove({
     _id: req.params.entryId,
   },
